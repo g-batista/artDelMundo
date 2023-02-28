@@ -1,0 +1,61 @@
+/* External Style Sheet for allProducts.html Page
+   Author:  Gilson Batista
+   Date:     01/29/2018
+*/
+
+body  {
+      background-color: lightgray;
+      
+}
+
+section{
+	
+	text-align:center;
+	color:blue;
+	
+}
+
+table{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	width:40%;
+	height:30%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:Aquamarine;
+	opacity: 
+	
+	
+}
+
+td{
+	border: 2px solid blue;
+	padding:1em;
+	width:30%;
+	height:33%;
+}
+
+img{
+	
+	height:35%;
+	
+}
+
+img#end{
+	 
+	width:7%;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	
+}
+
+p#footer{
+	
+	float:right;
+	color:red;
+	font-size: small ;
+
+}
+

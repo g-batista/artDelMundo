@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--  Author:  Gilson Batista
+        Date:    01/29/2018
+  -->
+  <title>Join the Arte del Mundo Artists Family</title>
+  <meta charset="UTF-8"  />
+  <link href="../styleSheets/newArtist.css"  rel="stylesheet"  type="text/css"  />
+
+ <script src="../jsFiles/newArtist.js"
+ 		     type="text/javascript"></script>
+
+  </head>
+<body>
+
+		<header>
+
+		<h1> New Artist Application Form </h1>
+
+		  <h2>For Use by Artist Wishing to Join the Arte del Mundo Family of Artists</h2>
+
+		  <p>Please fill out the form below if you are an artist that wishes to begin
+		  selling your artwork via the Arte del Mundo website. The information gathered will
+		 be used by staff to help build a webpage about you and your artwork. A staff
+		 member will contact you to discuss your future website. Please wait approximately 24
+		 hours for an artist ID and password to be provided.</p>
+
+		</header>
+
+<section>
+
+<form     name="form01"
+          onsubmit="return validatForm01();"
+          id="form01"
+				  action="http://itins3.madisoncollege.edu/echo.php"
+				  method="post"
+				  onReset="resetAll();">
+
+		 <label for="FristName">Frist Name:</label>
+
+ 			<input type="text"
+					id="FristName"
+					name="FristName"
+					maxlength="20"
+					placeholder="Artist Frist Name"/>
+
+		<br /><br />
+
+		 <label for="ArtistLastName">Artist Last Name:</label>
+
+ 			<input type="text"
+					id="ArtistLastName"
+					name="ArtistLastName"
+					maxlength="25"
+					placeholder="Artist Last Name"/>
+
+		<br /><br />
+
+		 <label for="ArtistStreetAdress">Artist Street Adress:</label>
+
+ 			<input type="text"
+					id="ArtistStreetAdress"
+					name="ArtistStreetAdress"
+					maxlength="35"
+					placeholder="Artist Street Adress"/>
+
+		<br /><br />
+
+		 <label for="ArtistCity">Artist City:</label>
+
+ 			<input type="text"
+					id="ArtistCity"
+					name="ArtistCity"
+					maxlength="20"
+					placeholder="Artist City"/>
+
+		<br /><br />
+
+		 <label for="ArtistState">Artist State:</label>
+
+ 			<input type="text"
+					id="ArtistState"
+					name="ArtistState"
+					maxlength="20"
+					placeholder="Artist State"/>
+
+		<br /><br />
+
+		 <label for="ArtistZip">Artist Zip:</label>
+
+ 			<input type="text"
+					id="ArtistZip"
+					name="ArtistZip"
+					maxlength="15"
+					placeholder="Artist Zip"/>
+
+		<br /><br />
+
+				<label>Coutry:</label>
+
+				<select name= "coutry">
+
+				  <option value="99">--select--</option>
+
+					<option value="United States">United States</option>
+
+					<option value="Brazil" >Brazil</option>
+
+					<option value="Ukraine">Ukraine</option>
+
+					<option value="Qatar">Qatar</option>
+
+					<option value="Cabo Verde">Cabo Verde</option>
+
+					<option value="Mauritania">Mauritania</option>
+
+					<option value="Tanzania">Tanzania</option>
+
+					<option value="Morocco">Morocco</option>
+
+					<option value="Cuba">Cuba</option>
+
+					<option value="Russia">Russia</option>
+
+				</select>
+
+		<br /><br />
+
+		<label>Gender:</label>
+
+				<select name= "gender">
+
+				  <option value="00">---select---</option>
+
+					<option value="M">Male</option>
+
+					<option value="F">Female</option>
+
+				</select>
+
+		<br /><br />
+
+ 		 <label for="ArtistTelephone">Artist Telephone:</label>
+
+ 			<input type="text"
+					id="ArtistTelephone"
+					name="ArtistTelephone"
+					maxlength="15"
+					placeholder="Artist Telephone"/>
+
+		<br /><br />
+
+  		 <label for="ArtistEmail">ArtistEmail:</label>
+
+ 			<input type="Email"
+					id="ArtistEmail"
+					name="ArtistEmail"
+					maxlength="40"
+					placeholder="Artist Email"/>
+
+		<br /><br />
+
+		<label>Media in which artist works:</label>
+
+		<br/>
+
+		<input type="checkbox"
+			   name="Ceramic"
+			   value="Ceramic"/>Ceramic
+
+		<input type="checkbox"
+			   name="Fabrica"
+			   value="Fabric"/>Fabric
+
+		<input type="checkbox"
+			   name="Metal"
+			   value="Metal"/>Metal
+
+		<input type="checkbox"
+			   name="Paint"
+			   value="Paint"/>Paint
+
+		<input type="checkbox"
+			   name="Wood"
+			   value="Wood"/>Wood
+
+		<input type="checkbox"
+			   name="Plastic"
+			   value="Plastic"/>Plastic
+
+		<input type="checkbox"
+			   name="Paper"
+			   value="Paper"/>Paper
+
+		<input type="checkbox"
+			   name="Stone"
+			   value="Stone"/>Stone
+
+		<input type="checkbox"
+			   name="Other"
+			   value="Other"/>Other
+
+			<br/><br/>
+
+	<label for="DiscounforQuantity"> Discoun for Quantity?</label>
+
+	<input type="radio"
+			name="DiscounforQuantity"
+			velue="Yes"/>Yes
+
+	<input type="radio"
+			name="DiscounforQuantity"
+			checked="checked"
+			value="No"/>No
+
+			<br/><br/>
+
+	<label> Work Under Professional Name?</label>
+
+	<input type="radio"
+			name="WorkUnderProfessionalName"
+			value="Yes"/>Yes
+
+	<input type="radio"
+			name="WorkUnderProfessionalName"
+			checked="checked"
+			value="No"/>No
+
+			<br/><br/>
+
+	<label> Agree To Sell Only Own Work?</label>
+
+	<input type="radio"
+			name="AgreeToSellOnlyOwnWork"
+			checked="checked"
+			velue="Yes"/>Yes
+
+	<input type="radio"
+			name="AgreeToSellOnlyOwnWork"
+			value="No"/>No
+
+			<br/><br/>
+
+			<label for="Password">Password:</label>
+
+	<input type="password"
+			name="Password"
+			id="Password"
+			placeholder="password"
+			maxlength="15"/>
+
+			<br/><br/>
+
+			<label for="PasswordConfirm">Password Confirm:</label>
+
+	<input
+			type="password"
+			name="PasswordConfirm"
+			id="PasswordConfirm"
+			placeholder="PassWordConfirm"
+			maxlength="15"/>
+
+			<br/><br/>
+
+			<label for="BriefArtistBiography">Brief Artist Biography:</label>
+
+			<br/></br>
+
+				<textarea
+
+					id="BriefArtistBiography"
+					type="text"
+					name="BriefArtistBiography"
+					maxlength="1000"
+					placeholder="live your comment here">
+
+		</textarea>
+
+					<br/><br/>
+
+				<div id="controlBottons">
+
+					<input type="submit" value="Submit My Comment" />
+
+					<input type="reset"  value="Clear form - DO NOT SEND" />
+
+				</div>
+
+</section>
+
+ </form>
+
+		  <footer>
+
+					  <div>
+
+					  <a href="index.html"><img src="../images/home_gray(3).png" alt="Home page button"/></a>
+
+					 </div>
+
+		  </footer>
+</body>
+</html>

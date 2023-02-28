@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--  Author:  Gilson Batista
+        Date:    05/05/2018
+  -->
+  <title>Customer Comment</title>
+  <meta charset="UTF-8"  />
+  <link href="../styleSheets/customerComment.css"  rel="stylesheet"  type="text/css" />
+  <script src="../jsFiles/customerComment.js"
+ 		     type="text/javascript"></script>
+
+  </head>
+
+<body>
+
+    <h1>Customer Comment</h1>
+
+    <p>This box is to send a comment of any kind to the Arte del Mundo staff. Thanks!</p>
+
+    <br/>
+
+<header>
+
+      <form name="form01"
+            onReset="resetAll();"
+            onsubmit="return validatForm01();"
+            action="http://itins3.madisoncollege.edu/echo.php"
+            method="post">
+
+        <label for="name">First name:</label>
+
+          <input type="text"
+              id="name"
+              name="FristName"
+              maxlength="30"
+              placeholder="name"
+              />
+
+        <br /><br />
+
+        <label for="passWord">password</label>
+
+          <input type="password"
+              name="password"
+              id="passWord"
+              maxlength="30"
+              placeholder="password"/>
+
+        <br /><br />
+
+        <label for="passWordConfirm">password comfirmation</label>
+
+          <input type="password"
+              name="passwordComfirm"
+              id="passWord"
+              maxlength="30"
+              placeholder="password comfirmation"/>
+
+        <br /><br />
+
+
+        <label for="date">date</label>
+
+          <input type="date"
+                 id="date"
+                 name="date"/>
+
+        <br /><br />
+
+        <label for="color">color</label>
+
+          <input type="color"
+                 id="color"
+                 name="color"/>
+
+
+        <br /><br />
+
+        <textarea   id="text"
+                    type="text"
+                    name="text"
+                    placeholder="live your comment here">
+
+        </textarea>
+
+
+        <br /><br />
+
+      <div id="controlBottons">
+
+            <input type="submit" value="Submit My Comment" />
+
+            <input type="reset"  value="Clear form - DO NOT SEND" />
+      </div>
+
+      </form>
+
+  </header>
+
+    <footer>
+
+      <br/><br/><br/>
+
+          <a href="index.html">
+
+          <img src="../images/home_gray(3).png"
+               alt="gray botton to the index page" /></a>
+
+       <br/><br/><br/>
+
+    <div id="contactStaffForm">
+
+          <button  id="contactStaff"
+                  onclick="runContactBox();">
+                 "Click he if you would like
+                a staff member to contact you!"
+          </button>
+
+     <br/><br/><br/>
+
+          <h2
+              onclick="runContactBox();"
+              id="contactStaff"></h2>
+    </div>
+
+    </footer>
+
+<div>
+
+  <script>
+        // Define two variables for the program to use
+
+        var renderedDate;
+        var revisedDate;
+
+             // Assign date and time content to the variables
+
+        renderedDate = new Date();             // assign current date
+
+        revisedDate  = document.lastModified;  // assign revised date
+
+             // Deliver the variables content to the Web page
+
+        document.write("This Web page rendered: " + renderedDate);
+        document.write("<br /><br/>");
+        document.write("This Web page revised: " + revisedDate);
+
+  </script>
+
+</div>
+
+</body>
+</html>
