@@ -1,0 +1,53 @@
+/* External Style Sheet for faq.html Page
+   Author:  Gilson Batista
+   Date:     01/29/2018
+*/
+
+body  {
+      background-color: violet ;
+}
+
+h1{
+	text-align: center;
+	color: steelBlue;
+}
+
+h2{
+	font-size: x-large;
+	color: white;
+	letter-spacing:2px;
+}
+
+h3{
+	font-size: large;
+	color: blue;
+	font-family: fantasy;
+}
+
+aside{
+	border: solid aqua 2px;
+	background: mediumpurple;
+	width:20em;
+	float: right;
+	padding: 7px 14px;
+	margin: 5px 10spx;
+
+}
+
+div{
+	
+	border: solid blue 4px;
+	background: dodgerblue; 
+	text-indent: 2em;
+	padding: 13px;
+	margin: 10px 25px ;
+}
+
+footer{
+	text-align:center;
+}
+
+footer p{
+	font-size: smaller;
+	text-align:  right;
+}

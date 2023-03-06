@@ -1,0 +1,72 @@
+/* External Style Sheet for newArtist.html Page
+   Author:  Gilson Batista
+   Date:     01/29/2018
+*/
+
+body  {
+      background-color: darkorange;     /* temp for verifying connection */
+}
+
+label{
+	
+	border:2px solid blue;
+	width: 100px;
+	display:inline-block;
+	color: darkmagenta ;
+
+}
+
+form{
+	
+	background-color: pink;
+	opacity: .9;
+	padding: 26px;
+	border: .9em solid magenta;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 400px;	
+	border-radius: 50px;
+
+}
+
+button{
+	
+	background:#FF1493;
+    border:solid green;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12px;
+    display: block;
+    padding:7px;
+    border-radius: 30px;
+    box-shadow: black 5px 5px 3px;
+}
+
+header{
+	text-align:center;
+	color:indigo;
+	
+}
+
+p{
+	color:#00FFFF;
+	
+}
+
+img{
+	
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:23px;
+    display: block;
+}
+
+textarea{
+	
+	width:400px;
+	height:200px;
+
+
+}
+

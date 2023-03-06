@@ -1,0 +1,84 @@
+/* External Style Sheet for productInformation.html Page
+
+   Author:  Gilson Batista
+   Date:     03/26/2018
+*/
+
+
+
+body  {
+
+      background-color: gray;
+
+}
+
+header{
+	
+	text-align:center;
+	color:Cornsilk ;
+
+}
+
+table{
+	
+	background: HoneyDew ;
+    border-color: red;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    border-collapse:collapse;
+    
+}
+
+td#cell01{
+    width:33%;
+
+
+}
+td#cell02{
+    width: 164px;
+    float:left;
+    margin-left:7em;
+
+}
+
+img#imageOne{
+	
+	width:70%;
+    padding:3em;
+	
+}
+
+p#description{
+	
+	padding:4px;
+	text-align:left;
+
+}
+
+td#artist{
+
+	text-align: center;
+}
+
+footer {
+	
+    text-align:center;
+
+}
+
+p#end{
+ 	 
+	 margin-top:15%;
+ 	 text-align:right;
+ 	 font-size: small;
+ 	 color:white;
+  
+ }
+
+
+
+
+
+
